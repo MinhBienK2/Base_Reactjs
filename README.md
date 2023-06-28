@@ -1,5 +1,3 @@
----
-
 ## Install & Start
 
 ```shell
