@@ -21,8 +21,8 @@ import { PersistGate } from 'redux-persist/integration/react';
 import 'sanitize.css/sanitize.css';
 
 import { App } from 'app';
-import { configureAppStore } from 'store/configureStore';
-import { ErrorBoundary } from 'app/shared/ErrorBoudary';
+import { configureAppStore } from '@store/configureStore';
+import { ErrorBoundary } from '@app/shared/ErrorBoudary';
 
 // Initialize languages
 import './locales/i18n';
