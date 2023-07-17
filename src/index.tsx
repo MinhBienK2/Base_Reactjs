@@ -56,6 +56,11 @@ root.render(
   </Provider>,
 );
 
+/**
+ * user service worker
+ */
+// serviceWorker.register({ scope: '/' });
+
 // Hot reloadable translation json files
 if (module.hot) {
   module.hot.accept(['./locales/i18n'], () => {
