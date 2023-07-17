@@ -30,7 +30,7 @@ export function App() {
 
       <Routes>
         <Route path="/" element={<PublicRouter />}>
-          <Route path="dashboard" element={<LayoutDefault />}></Route>
+          <Route path="" element={<LayoutDefault />}></Route>
         </Route>
 
         <Route path="*" element={<NotFoundPage />} />
